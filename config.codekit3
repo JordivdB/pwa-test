@@ -42,12 +42,22 @@
 		"oF": 0
 		},
 	"/files/css/cirrus/cirrus.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/files/css/cirrus/cirrus.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"/files/css/fa.min-min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/files/css/cirrus/cirrus.min-min.css",
+		"oAP": "/files/css/fa.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -85,8 +95,8 @@
 		"oA": 0,
 		"oAP": "/files/images/favicons/android-chrome-192x192.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -96,8 +106,8 @@
 		"oA": 0,
 		"oAP": "/files/images/favicons/android-chrome-256x256.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -107,8 +117,8 @@
 		"oA": 0,
 		"oAP": "/files/images/favicons/apple-touch-icon.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -118,8 +128,8 @@
 		"oA": 0,
 		"oAP": "/files/images/favicons/favicon-16x16.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -129,8 +139,8 @@
 		"oA": 0,
 		"oAP": "/files/images/favicons/favicon-32x32.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -148,8 +158,8 @@
 		"oA": 0,
 		"oAP": "/files/images/favicons/mstile-150x150.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -161,7 +171,7 @@
 		"oAP": "/files/images/hoa-test-img.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/files/images/hoa/house-of-ambition-logo.png": {
@@ -170,8 +180,8 @@
 		"oA": 0,
 		"oAP": "/files/images/hoa/house-of-ambition-logo.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -193,7 +203,7 @@
 		"oAP": "/files/images/icoach-login.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/files/js/javascript-min.js": {
@@ -215,7 +225,7 @@
 		"oA": 0,
 		"oAP": "/files/js/javascript-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/files/js/main.js": {
@@ -226,28 +236,6 @@
 		"oA": 1,
 		"oAP": "/files/js/main-min.js",
 		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"/files/js/modules/module.micromodal-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/files/js/modules/module.micromodal-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/files/js/modules/module.micromodal.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/files/js/modules/module.micromodal-min.js",
-		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -293,6 +281,16 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/files/less/spectre/spectre-exp.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/files/less/spectre/spectre-exp.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/files/less/spectre/spectre-exp.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -303,6 +301,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/files/less/spectre/spectre-icons.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/files/less/spectre/spectre-icons.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/files/less/spectre/spectre-icons.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -310,6 +318,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/files/less/spectre/spectre-icons.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/files/less/spectre/spectre.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/files/less/spectre/spectre.min-min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -16495,8 +16513,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-128x128.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16506,8 +16524,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-144x144.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16517,8 +16535,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-152x152.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16528,8 +16546,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-192x192.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16539,8 +16557,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-384x384.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16550,8 +16568,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-512x512.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16561,8 +16579,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-72x72.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16572,8 +16590,8 @@
 		"oA": 0,
 		"oAP": "/images/icons/icon-96x96.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -16668,7 +16686,8 @@
 	"displayValue": "pwa-test",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/files/images/favicons/apple-touch-icon.png",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 615915608.12102306
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
