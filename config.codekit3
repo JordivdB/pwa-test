@@ -259,12 +259,12 @@
 		"eJ": 0,
 		"ft": 1,
 		"iI": 0,
-		"ma": 1,
+		"ma": 0,
 		"mS": 0,
 		"oA": 0,
 		"oAP": "/files/css/hoaframe.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 1,
 		"rwU": 0,
 		"sI": 0,
 		"sU": 0
@@ -16581,6 +16581,38 @@
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/node_modules/workbox-cacheable-response/index.mjs": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/node_modules/workbox-cacheable-response/index.mjs",
+		"oF": 0
+		},
+	"/node_modules/workbox-expiration/index.mjs": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/node_modules/workbox-expiration/index.mjs",
+		"oF": 0
+		},
+	"/node_modules/workbox-routing/index.mjs": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/node_modules/workbox-routing/index.mjs",
+		"oF": 0
+		},
+	"/node_modules/workbox-strategies/index.mjs": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/node_modules/workbox-strategies/index.mjs",
 		"oF": 0
 		},
 	"/package-lock.json": {
