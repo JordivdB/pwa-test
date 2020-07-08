@@ -1,6 +1,6 @@
 {
     "name": "HoA iCoach",
-    "start_url": "https://jordivdb.github.io/pwa-test/",
+    "start_url": "/pwa-test/",
     "short_name": "HoA iCoach",
     "icons": [
         {
