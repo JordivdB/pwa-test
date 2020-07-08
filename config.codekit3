@@ -16575,38 +16575,6 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/workbox-cacheable-response/index.mjs": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/node_modules/workbox-cacheable-response/index.mjs",
-		"oF": 0
-		},
-	"/node_modules/workbox-expiration/index.mjs": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/node_modules/workbox-expiration/index.mjs",
-		"oF": 0
-		},
-	"/node_modules/workbox-routing/index.mjs": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/node_modules/workbox-routing/index.mjs",
-		"oF": 0
-		},
-	"/node_modules/workbox-strategies/index.mjs": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/node_modules/workbox-strategies/index.mjs",
-		"oF": 0
-		},
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -16649,7 +16617,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 615905686.24607396,
-	"displayValue": "PWA icoach test",
+	"displayValue": "pwa-test",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/files/images/favicons/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
