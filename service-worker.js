@@ -1,11 +1,11 @@
 var cacheName = 'pwa-test-v1';
 var appShellFiles = [
   '/',
-  '/index.html',
-  '/files/js/javascript.js',
-  '/files/css/hoaframe.css',
-  '/files/css/fa.min.css',
-  '/files/images/icoach-login.jpg'
+  'index.html',
+  'files/js/javascript.js',
+  'files/css/hoaframe.css',
+  'files/css/fa.min.css',
+  'files/images/icoach-login.jpg'
 ];
 
 
