@@ -4,12 +4,12 @@
     "short_name": "HoA iCoach",
     "icons": [
         {
-            "src": "/files/images/favicons/android-chrome-192x192.png",
+            "src": "/pwa-test/files/images/favicons/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/files/images/favicons/android-chrome-256x256.png",
+            "src": "/pwa-test/files/images/favicons/android-chrome-256x256.png",
             "sizes": "256x256",
             "type": "image/png"
         }
