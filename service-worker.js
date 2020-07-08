@@ -1,73 +1,36 @@
-import {registerRoute} from 'workbox-routing';
-import {CacheFirst, StaleWhileRevalidate} from 'workbox-strategies';
-import {CacheableResponsePlugin} from 'workbox-cacheable-response';
-import {ExpirationPlugin} from 'workbox-expiration';
-
-// Cache the Google Fonts stylesheets with a stale-while-revalidate strategy.
-registerRoute(
-  ({url}) => url.origin === 'https://fonts.googleapis.com',
-  new StaleWhileRevalidate({
-    cacheName: 'google-fonts-stylesheets',
-  })
-);
-
-// Cache the underlying font files with a cache-first strategy for 1 year.
-registerRoute(
-  ({url}) => url.origin === 'https://fonts.gstatic.com',
-  new CacheFirst({
-    cacheName: 'google-fonts-webfonts',
-    plugins: [
-      new CacheableResponsePlugin({
-        statuses: [0, 200],
-      }),
-      new ExpirationPlugin({
-        maxAgeSeconds: 60 * 60 * 24 * 365,
-        maxEntries: 30,
-      }),
-    ],
-  })
-);
+var cacheName = 'pwa-test-v1';
+var appShellFiles = [
+  '/',
+  '/index.html',
+  '/files/js/javascript.js',
+  '/files/css/hoaframe.css',
+  '/files/css/fa.min.css',
+  '/files/images/icoach-login.css'
+];
 
 
+self.addEventListener('install', (e) => {
+  console.log('[Service Worker] Install');
+  e.waitUntil(
+    caches.open(cacheName).then((cache) => {
+          console.log('[Service Worker] Caching all: app shell and content');
+      return cache.addAll(appShellFiles);
+    })
+  );
+});
 
 
-//Afbeeldingen
-registerRoute(
-  ({request}) => request.destination === 'image',
-  new CacheFirst({
-    cacheName: 'images',
-    plugins: [
-      new ExpirationPlugin({
-        maxEntries: 60,
-        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
-      }),
-    ],
-  })
-);
-
-
-//CSS en JS
-registerRoute(
-  ({request}) => request.destination === 'script' ||
-                  request.destination === 'style',
-  new StaleWhileRevalidate({
-    cacheName: 'static-resources',
-  })
-);
-
-
-//Offline use
-workbox.routing.registerRoute(
-  ({ event }) => event.request.mode === 'navigate',
-  async () => {
-    const defaultBase = '/index.html';
-    return caches
-      .match(workbox.precaching.getCacheKeyForURL(defaultBase))
-      .then(response => {
-          return response || fetch(defaultBase);
-      })
-      .catch(err => {
-        return fetch(defaultBase);
+self.addEventListener('fetch', (e) => {
+  e.respondWith(
+    caches.match(e.request).then((r) => {
+          console.log('[Service Worker] Fetching resource: '+e.request.url);
+      return r || fetch(e.request).then((response) => {
+                return caches.open(cacheName).then((cache) => {
+          console.log('[Service Worker] Caching new resource: '+e.request.url);
+          cache.put(e.request, response.clone());
+          return response;
+        });
       });
-  }
-);
+    })
+  );
+});
