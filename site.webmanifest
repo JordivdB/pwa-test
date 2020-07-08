@@ -1,6 +1,6 @@
 {
     "name": "HoA iCoach",
-    "start_url": "/index.html",
+    "start_url": "/pwa-test/index.html",
     "scope": "/",
     "short_name": "HoA iCoach",
     "icons": [
