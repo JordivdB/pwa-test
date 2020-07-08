@@ -1,0 +1,1 @@
+!function(n){var e,t={touchend:function(){}};for(e in t)n.addEventListener(e,t)}(document),window.addEventListener("DOMContentLoaded",n=>{});

@@ -1,0 +1,17 @@
+{
+  "name": "codekit-project",
+  "version": "1.0.0",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
+  "scripts": {},
+  "author": "",
+  "license": "UNLICENSED",
+  "repository": {},
+  "dependencies": {
+    "workbox-background-sync": "^5.1.3",
+    "workbox-cacheable-response": "^5.1.3",
+    "workbox-expiration": "^5.1.3",
+    "workbox-precaching": "^5.1.3",
+    "workbox-routing": "^5.1.3",
+    "workbox-strategies": "^5.1.3"
+  }
+}

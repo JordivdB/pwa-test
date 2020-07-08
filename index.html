@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+  _    _                               __                      _     _ _   _             
+ | |  | |                             / _|     /\             | |   (_) | (_)            
+ | |__| | ___  _   _ ___  ___    ___ | |_     /  \   _ __ ___ | |__  _| |_ _  ___  _ __  
+ |  __  |/ _ \| | | / __|/ _ \  / _ \|  _|   / /\ \ | '_ ` _ \| '_ \| | __| |/ _ \| '_ \ 
+ | |  | | (_) | |_| \__ \  __/ | (_) | |    / ____ \| | | | | | |_) | | |_| | (_) | | | |
+ |_|  |_|\___/ \__,_|___/\___|  \___/|_|   /_/    \_\_| |_| |_|_.__/|_|\__|_|\___/|_| |_|
+                                                                                                             
+Webdesign & Development by https://www.houseofambition.com
+-->
+<html>
+<head>
+	<title>iCoach PWA Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="180x180" href="/files/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/files/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/files/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="files/css/fa.min.css">
+	<link rel="stylesheet" type="text/css" href="files/css/hoaframe.css">
+</head>
+<body>
+
+	<div class="hero fullscreen">
+        <div class="row p-0">
+            <div class="col-6 p-0 level">
+                <div class="u-text-left w-100">
+                    <div class="content">
+                        <h4>iCoach Personal Training</h4>
+                        <h6 class="font-alt">Wij zijn 100% de nummer 1. 👌</h6>
+
+                        <div class="divider"></div>
+
+                        <div class="form-section">
+                            <label>Email</label>
+                            <div class="input-control">
+                                <input class="input-contains-icon" id="email" name="email" placeholder="Email" type="text" value="">
+                                <span class="icon">
+                                    <i class="far fa-wrapper fa-envelope-open small"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-section">
+                            <label>Password</label>
+                            <div class="input-control">
+                                <input class="input-contains-icon" id="password" name="password" placeholder="Password" type="password" value="">
+                                <span class="icon">
+                                    <i class="fas fa-wrapper fa-key small"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="form-ext-control form-ext-checkbox">
+                            <input id="check1" class="form-ext-input" type="checkbox">
+                            <label class="form-ext-label" for="check1">Remember Me</label>
+
+                            <div class="u-pull-right">
+                                <a href="#">Forgot Password</a>
+                            </div>
+                        </div>
+
+                        <div class="form-section u-text-right">
+                            <div class="m-1 u-inline-block">
+                                <button class="btn-info">
+                                    Login
+                                </button>
+                            </div>
+                            <div class="m-1 u-inline-block">
+                                <button class="btn-light">
+                                    Cancel
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 p-0">
+                <div class="h-100 gradient-overlay main-gradient half-transparent" style="background: url('files/images/icoach-login.jpg'); background-size: cover; background-position: center; box-shadow: inset 5px 0px 9px 1px #00000017; min-height: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+	<script type="text/javascript" src="files/js/javascript.js"></script>
+
+	<script>
+		if ('serviceWorker' in navigator) {
+			window.addEventListener('load', () => {
+				navigator.serviceWorker.register('/service-worker.js');
+				});
+		}
+	</script>
+</body>
+</html>
