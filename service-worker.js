@@ -56,18 +56,18 @@ registerRoute(
 );
 
 
-// //Offline use
-// workbox.routing.registerRoute(
-//   ({ event }) => event.request.mode === 'navigate',
-//   async () => {
-//     const defaultBase = '/index.html';
-//     return caches
-//       .match(workbox.precaching.getCacheKeyForURL(defaultBase))
-//       .then(response => {
-//           return response || fetch(defaultBase);
-//       })
-//       .catch(err => {
-//         return fetch(defaultBase);
-//       });
-//   }
-// );
+//Offline use
+workbox.routing.registerRoute(
+  ({ event }) => event.request.mode === 'navigate',
+  async () => {
+    const defaultBase = '/index.html';
+    return caches
+      .match(workbox.precaching.getCacheKeyForURL(defaultBase))
+      .then(response => {
+          return response || fetch(defaultBase);
+      })
+      .catch(err => {
+        return fetch(defaultBase);
+      });
+  }
+);
