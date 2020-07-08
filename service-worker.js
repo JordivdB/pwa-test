@@ -5,7 +5,7 @@ var appShellFiles = [
   '/files/js/javascript.js',
   '/files/css/hoaframe.css',
   '/files/css/fa.min.css',
-  '/files/images/icoach-login.css'
+  '/files/images/icoach-login.jpg'
 ];
 
 
