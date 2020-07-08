@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://jordivdb.github.io/pwa-test/$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^https://jordivdb.github.io/pwa-test/$
+RewriteCond %{REQUEST_URI} !pwa-test/
+RewriteRule (.*) /pwa-test/$1 [L]

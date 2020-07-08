@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.htaccess",
+		"oF": 0
+		},
 	"/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
