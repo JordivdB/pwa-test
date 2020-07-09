@@ -3,6 +3,7 @@
     "start_url": "/pwa-test/index.html",
     "scope": "/",
     "short_name": "HoA iCoach",
+    "description": "Dit is een HoA test PWA",
     "icons": [
         {
             "src": "/pwa-test/files/images/favicons/android-chrome-192x192.png",
@@ -11,6 +12,11 @@
         },
         {
             "src": "/pwa-test/files/images/favicons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+        {
+            "src": "/pwa-test/images/icon-512x512.png",
             "sizes": "256x256",
             "type": "image/png"
         }
